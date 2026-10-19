@@ -21,5 +21,9 @@ STM32/
 ├── LAB3/                       # 實驗三：(例如：Timer 計時器應用)
 │   └── (依此類推，列出重要檔案)
 │
-├── README.md                   # 專案總說明檔
-└── TEST.txt                    # 測試用檔案
+├── LAB5_Extend/               # 實驗五延伸題：改善閃爍與調整亮度[cite: 1]
+│   ├── Core/Src/main.c        # 調整 Pulse (CCR) 將亮度改為 10% 與 90%[cite: 1]
+│   └── LAB5_Extend.ioc        # 修改 Prescaler (PSC) 為 84，將頻率提升至 100Hz 解決閃爍[cite: 1]
+│
+├── README.md                  # 專案總說明檔
+└── TEST.txt                   # 測試用檔案
