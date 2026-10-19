@@ -3,15 +3,15 @@
 
 ```text
 STM32/
-├── LAB1/                       # 實驗一：(例如：GPIO 控制 LED 閃爍)
+├── LAB1/                       # 實驗一：(GPIO 控制 LED 閃爍)
 │   ├── Core/
 │   │   ├── Src/
-│   │   │   └── main.c          # 核心主程式碼 (實作 LED 控制邏輯)
+│   │   │   └── main.c          # 核心主程式碼 (LED 控制邏輯)
 │   │   └── Inc/
 │   │       └── main.h          # 相關標頭檔
 │   └── LAB1.ioc                # STM32CubeMX 腳位與時脈設定檔
 │
-├── LAB2/                       # 實驗二：(例如：按鈕中斷控制 EXTI)
+├── LAB2/                       # 實驗二：(按鈕中斷控制 EXTI)
 │   ├── Core/Src/main.c         # 實作按鈕中斷服務常式
 │   └── LAB2.ioc                # 包含中斷腳位設定
 │
